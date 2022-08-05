@@ -1,0 +1,48 @@
+{
+    "name": "jhavenz/php-timeslot-reservations",
+    "description": "timeslot reservation management using PHP",
+    "keywords": [
+        "jhavenz",
+        "php-timeslot-reservations"
+    ],
+    "homepage": "https://github.com/jhavenz/php-timeslot-reservations",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Havens",
+            "email": "mail@jhavens.tech",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "pestphp/pest": "^1.20",
+        "spatie/ray": "^1.28"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jhavenz\\PhpTimeslotReservations\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jhavenz\\PhpTimeslotReservations\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
