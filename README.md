@@ -1,7 +1,11 @@
 # Timeslot reservation management using PHP
 
-> Currently being developed. Development started on 08-05-2022.
-_package inspired by [this timeslot package](https://github.com/gpaddis/timeslot). Being that their package hasn't been update since 2017, and seeing places for improvement, I decided to create my own._
+> **Currently being developed**. Development started on 08-05-2022.
+> _This package is inspired by [this timeslot package](https://github.com/gpaddis/timeslot)._ 
+> Being that their package hasn't been update since 2017, and seeing places for improvement, I decided to create my own.
+
+> ## Requirements
+> PHP 8.1
 
 ---
 **Timeslot** uses [Carbon](https://github.com/briannesbitt/Carbon) to manage date and time.
@@ -28,8 +32,6 @@ $collection->get(1)->start()->toDateTimeString(); // 2017-08-19 15:30:00 (second
 ```
 _[original documentation](https://github.com/gpaddis/timeslot)_
 
-[Check the wiki](https://github.com/gpaddis/timeslot/wiki/) for a full description of all available methods.
-
 ## Installation
 
 You can install the package via composer:
@@ -41,8 +43,7 @@ composer require jhavenz/php-timeslot-reservations
 ## Usage
 
 ```php
-$skeleton = new Jhavenz\PhpTimeslotReservations();
-echo $skeleton->echoPhrase('Hello, Jhavenz!');
+/// TO DO
 ```
 
 ## Testing
