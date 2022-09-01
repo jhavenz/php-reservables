@@ -1,11 +1,11 @@
 {
-    "name": "jhavenz/php-timeslot-reservations",
-    "description": "timeslot reservation management using PHP",
+    "name": "jhavenz/php-reservables",
+    "description": "Intuitive datetime reservations and timeslots for PHP",
     "keywords": [
         "jhavenz",
-        "php-timeslot-reservations"
+        "php-reservables"
     ],
-    "homepage": "https://github.com/jhavenz/php-timeslot-reservations",
+    "homepage": "https://github.com/jhavenz/php-reservables",
     "license": "MIT",
     "authors": [
         {

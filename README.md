@@ -1,15 +1,14 @@
 # Timeslot reservation management using PHP
 
 > **Currently being developed**. Development started on 08-05-2022.
-> _This package is inspired by [this timeslot package](https://github.com/gpaddis/timeslot)._ 
-> Being that their package hasn't been update since 2017, and seeing places for improvement, I decided to create my own.
 
 > ## Requirements
 > PHP 8.1
 
 ---
-**Timeslot** uses [Carbon](https://github.com/briannesbitt/Carbon) to manage date and time.
-You can create a new timeslot passing it a Carbon instance, a DateTime instance or a valid datetime string instead. The complete syntax is `new Timeslot($start, $hours, $minutes)`. Fluent methods, getters and setters are available as well.
+**Timeslot** uses [Carbon](https://github.com/briannesbitt/Carbon) to manage dates and times.
+You can create a new timeslot passing it a Carbon instance, a DateTime instance or a valid datetime string instead.
+The complete syntax is `new Timeslot($start, $hours, $minutes)`. Fluent methods, getters and setters are available as well.
 
 ## Examples
 ```php
@@ -37,7 +36,7 @@ _[original documentation](https://github.com/gpaddis/timeslot)_
 You can install the package via composer:
 
 ```bash
-composer require jhavenz/php-timeslot-reservations
+composer require jhavenz/php-reservables
 ```
 
 ## Usage
@@ -65,8 +64,12 @@ Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTI
 Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
 
 ## Credits
+> This package is inspired by [this timeslot package](https://github.com/gpaddis/timeslot).
+> Being that their package hasn't been updated in years (as of Sep-2022), and seeing places for improvement, I decided to create my own.
 
 - [Jonathan Havens](https://github.com/jhavenz)
+- [Original Package](https://github.com/gpaddis/timeslot)
+- [Carbon](https://github.com/briannesbitt/Carbon)
 - [All Contributors](../../contributors)
 
 ## License

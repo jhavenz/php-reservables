@@ -11,7 +11,7 @@ use DateTime;
 use function Jhavenz\CarbonHelpers\carbon;
 use function Jhavenz\CarbonHelpers\carbonImmutable;
 
-class Timeslot
+class Timeslot implements ITimeslot
 {
     protected CarbonImmutable $end;
     protected CarbonImmutable $start;
@@ -118,5 +118,10 @@ class Timeslot
     {
         return CarbonPeriod::dates($this->start(), $this->end())
             ->setDateClass(CarbonImmutable::class);
+    }
+
+    public function duration(): CarbonPeriod
+    {
+        return CarbonPeriod::dates($this->start(), $this->end())->setDateClass(CarbonImmutable::class);
     }
 }
